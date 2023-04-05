@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://codm.garena.com/static/images/Main-page/P1/main-kv.jpg);
+    background-size: cover;
+    
+}
+.parent{
+   width: 50%;
+   height: 80px;
+   position: relative;
+   background-color: rgb(99, 98, 42);
+   ;
+   margin: 25%;
+   transition: .5s;
+}
+
+.parent:hover{
+    background-color: rgb(111, 119, 119); 
+   opacity: 0.8;
+}
+
+.child{
+    width: 120px;
+    /* height: 50px; */
+    color: aliceblue;
+    /* position: absolute; */
+
+}
+.child:nth-child(1){
+    background-color: rgb(106, 106, 161);
+    padding: 3px;
+    /* height: 30px;     */
+    position: absolute;
+    left: 24%;
+    bottom: 40px;
+    text-align: center;
+    transition: 0.4s;
+}
+.child:nth-child(1):hover{
+    color: yellow;
+    background-color: rgb(111, 119, 119);
+
+}
+.child:nth-child(2){
+    background-color: rgb(37, 37, 80);
+    padding: 3px;
+    position: absolute;
+    right: 40%;
+    bottom: 40px;
+    text-align: center;
+    color: aliceblue;
+}
+.child:nth-child(2):hover{
+    color: yellow;
+    background-color: rgb(111, 119, 119);
+}
+.child:nth-child(3){
+    background-color: rgb(55, 55, 197);
+    padding: 3px;
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    bottom: 40px;
+    text-align: center;
+}
+.child:nth-child(3):hover{
+    color: yellow;
+    background-color: rgb(111, 119, 119);
+}
+.child:nth-child(4){
+    background-color: rgb(39, 39, 51);
+    padding: 3px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px ;
+    right: 30%;
+    bottom: 5px;
+}
+.child:nth-child(4):hover{
+    color: yellow;
+    background-color: rgb(111, 119, 119);
+}
+
+
